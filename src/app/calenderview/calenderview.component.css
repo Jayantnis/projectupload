@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    margin-left: -33px;
+    margin-top: -31px;
+}
+
+
+/* three parts divided */
+
+.col {
+    max-width: fit-content;
+    margin: 30px;
+}
+
+.tableset,
+.tabletr,
+.tableth,
+.tabletd {
+    border: none;
+    margin: 10px;
+    padding: 0px;
+}
+
+.tabletr .tabletd {
+    height: 25px;
+    margin-top: 10px;
+    width: 30px;
+}
+
+
+/* Create two equal columns that sits next to each other */
+
+.column {
+    flex: 1%;
+    width: 34px;
+    background-color: darkblue;
+    /* Should be removed. Only for demonstration */
+}
+
+table .table_show_cel {
+    margin-top: 50px;
+    /* nav-bar create than delete */
+    width: 100px;
+    height: 32px;
+    /* padding: 23px; */
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(81, 71, 71);
+    /* width: 56px; */
+    text-align: center;
+}
+
+tr td {
+    height: 125px;
+    width: 100px;
+}
+
+
+/* center margin-top view */
+
+div .cl {
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+
+/* deliveris */
+
+p {
+    color: #10F543;
+    margin-top: 20px;
+}
+
+
+/* undelivers */
+
+p span {
+    color: #10CCF5;
+}
+
+span p {
+    color: #A0A5A6;
+}
+
+button {
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.line {
+    width: 195px;
+    background-color: #f7ffff;
+    border-color: #f7ffff;
+    /* height: 23px; */
+    margin-right: 36px;
+}
+
+.btn {
+    width: 250px;
+    height: 65px;
+    margin-top: 25px;
+    background-color: #10F6F6;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 22px;
+}
+
+.btn-cal {
+    color: black;
+    background-color: #A0A5A6;
+    width: 250px;
+    height: 65px;
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 22px;
+}
+
+.btn-cancel {
+    color: black;
+    background-color: #A0A5A6;
+    width: 250px;
+    margin-top: 25px;
+    font-size: 23px;
+    /* font-weight: bold; */
+    height: 65px;
+    color: black;
+    text-align: center;
+    border-radius: 22px;
+}
+
+.btn-othertask {
+    color: black;
+    background-color: #A0A5A6;
+    width: 250px;
+    margin-top: 25px;
+    height: 65px;
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    border-radius: 22px;
+}
+
+.btn-My-Requests {
+    color: black;
+    background-color: #0CB932;
+    width: 250px;
+    margin-top: 25px;
+    height: 65px;
+    text-align: center;
+    border-radius: 22px;
+}
+
+
+/* down arrow */
+
+.my {
+    margin-left: 50px;
+    margin-bottom: 15px;
+    color: black;
+    background-color: #A0A5A6;
+}
+
+.d {
+    margin-left: 20px;
+    text-align: center;
+    color: black;
+    background-color: #A0A5A6;
+}
+
+.dv {
+    margin-left: 60px;
+    text-align: center;
+    color: black;
+    background-color: #A0A5A6;
+}
+
+.request {
+    margin-left: 60px;
+    text-align: center;
+    color: #000000;
+    /* hidden colour outter */
+    border-radius: 30px;
+    background-color: rgb(11, 160, 90);
+}
+
+
+/* selection last  */
+
+
+/* position */
+
+.task {
+    font-size: 26px;
+    line-height: 31.47px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.text,
+.text_nd {
+    margin-top: -34px;
+    margin-left: 55px;
+}
+
+.hr_line_D,
+.hr_line_ND,
+.hr_line_UC,
+.hr_line_CR {
+    width: 50px;
+    margin-right: 130px;
+    border-radius: 7px;
+    border-width: 8px;
+}
+
+.hr_line_D {
+    margin-top: 100px;
+    background-color: rgb(0, 255, 0);
+}
+
+.hr_line_ND {
+    background-color: #F51010;
+}
+
+.hr_line_UC {
+    background-color: #10CCF5;
+}
+
+.hr_line_CR {
+    background-color: #A0A5A6;
+}

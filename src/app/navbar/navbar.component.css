@@ -1,0 +1,86 @@
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        /* align-items: center; */
+    }
+
+    i {
+        /* display: flex; */
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    a {
+        margin-left: 15px;
+    }
+
+    .nav-link {
+        margin-top: -32px;
+    }
+
+    .navbar-brand {
+        margin-top: 3px;
+    }
+
+    .setpoint {
+        margin-top: 3px;
+    }
+
+    .setpoint li {
+        background: rgba(77, 68, 68, 0.4);
+        padding: 10px;
+    }
+
+    .setpoint li:hover {
+        background-color: #4D4444;
+    }
+    /* setpo setting upword */
+
+    .setpo {
+        margin-top: 3px;
+        margin-left: 20px;
+    }
+
+    .setpo li {
+        background: rgba(77, 68, 68, 0.4);
+        padding: 10px;
+        /* width: 50px; */
+        /* height: 10px; */
+    }
+
+    .setpo li:hover {
+        background-color: #4D4444;
+    }
+
+    .readbtn0 {
+        border-color: rgba(77, 68, 68, 0.4);
+        margin: 6px;
+        padding: 8px;
+        background-color: rgba(77, 68, 68, 0.4);
+    }
+
+    .readbtn1 {
+        background-color: rgba(77, 68, 68, 0.4);
+        margin: -2px;
+        padding: 8px;
+        border-color: rgba(77, 68, 68, 0.4);
+    }
+
+    .readbtn0:hover,
+    .readbtn1:hover {
+        background-color: #4D4444;
+    }
+
+    b {
+        margin-right: 620px;
+        background-color: rgb(41, 36, 36);
+    }
+
+    nav,
+    .collapse,
+    .container-fluid,
+    .fa-solid,
+    li {
+        background-color: rgb(41, 36, 36);
+    }
